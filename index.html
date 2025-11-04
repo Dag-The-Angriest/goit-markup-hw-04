@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -56,8 +59,8 @@
       <!-- #endregion hero -->
       <!-- #region goals -->
       <section class="section">
-        <h2 class="visually-hidden">.</h2>
         <div class="container">
+          <h2 class="visually-hidden">.</h2>
           <ul class="goals-list">
             <li class="goals-li">
               <h3 class="goals-h">Strategy</h3>
@@ -93,35 +96,37 @@
       <!-- #endregion goals -->
       <!-- #region ourteam -->
       <section class="section team">
-        <h2 class="team-h">Our Team</h2>
-        <ul class="container team-list">
-          <li class="team-card">
-            <img src="./images/team-1.jpg" alt="man" width="264" />
-            <h3 class="team-member">Mark Guerrero</h3>
-            <p class="team-p">Product Designer</p>
-          </li>
-          <li class="team-card">
-            <img src="./images/team-2.jpg" alt="man" width="264" />
-            <h3 class="team-member">Tom Ford</h3>
-            <p class="team-p">Frontend Developer</p>
-          </li>
-          <li class="team-card">
-            <img src="./images/team-3.jpg" alt="woman" width="264" />
-            <h3 class="team-member">Camila Garcia</h3>
-            <p class="team-p">Marketing</p>
-          </li>
-          <li class="team-card">
-            <img src="./images/team-4.jpg" alt="man" width="264" />
-            <h3 class="team-member">Daniel Wilson</h3>
-            <p class="team-p">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team-h">Our Team</h2>
+          <ul class="team-list">
+            <li class="team-card">
+              <img src="./images/team-1.jpg" alt="man" width="264" />
+              <h3 class="team-member">Mark Guerrero</h3>
+              <p class="team-p">Product Designer</p>
+            </li>
+            <li class="team-card">
+              <img src="./images/team-2.jpg" alt="man" width="264" />
+              <h3 class="team-member">Tom Ford</h3>
+              <p class="team-p">Frontend Developer</p>
+            </li>
+            <li class="team-card">
+              <img src="./images/team-3.jpg" alt="woman" width="264" />
+              <h3 class="team-member">Camila Garcia</h3>
+              <p class="team-p">Marketing</p>
+            </li>
+            <li class="team-card">
+              <img src="./images/team-4.jpg" alt="man" width="264" />
+              <h3 class="team-member">Daniel Wilson</h3>
+              <p class="team-p">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- #endregion ourteam -->
       <!-- #region portfolio -->
       <section class="section">
-        <h2 class="portfolio-h">Our Portfolio</h2>
         <div class="container">
+          <h2 class="portfolio-h">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="porfolio-item">
               <img src="./images/port-1.jpg" alt="banking app" width="360" />
