@@ -103,6 +103,11 @@ button:focus {
   justify-content: space-between;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .header-main {
   height: 72px;
   align-content: center;
@@ -162,7 +167,6 @@ button:focus {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 188px;
 }
 
 .hero-h {
@@ -170,7 +174,6 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-  padding-top: 188px;
   padding-bottom: 48px;
 }
 .hero-button {
@@ -187,7 +190,6 @@ button:focus {
 
 .goals-list {
   display: flex;
-  padding: 120px 0;
   gap: 24px;
 }
 
@@ -219,14 +221,12 @@ header,
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-member {
@@ -245,14 +245,12 @@ header,
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
   flex-wrap: wrap;
 }
 
